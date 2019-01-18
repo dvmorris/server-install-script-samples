@@ -418,6 +418,7 @@ def run_install(options, secrets):
     # Run the installer. This unpacks the binaries and does initial boostrapping. After this is done, we have
     # a runnable server.
     print('Running installer executable')
+    return 0
 
     inno_installer_args = [
         '/VERYSILENT',          # No progress GUI, message boxes still possible
